@@ -112,6 +112,12 @@
             android:dependency="touch_vibration_preference_screen"
             android:defaultValue="false" />
 
+        <!-- Charger haptic feedback -->
+        <com.android.settings.custom.preference.GlobalSettingSwitchPreference
+            android:key="charging_vibration_enabled"
+            android:title="@string/charger_haptic_feedback_title"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
