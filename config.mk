@@ -1,5 +1,5 @@
 # Inherit from pixel-framework config
-TARGET_INCLUDE_PIXEL_FRAMEWORKS ?= true
+TARGET_INCLUDE_PIXEL_FRAMEWORKS ?= false
 ifeq ($(TARGET_INCLUDE_PIXEL_FRAMEWORKS),true)
 PRODUCT_PACKAGES += \
     SystemUIGoogle \
